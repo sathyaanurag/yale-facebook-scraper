@@ -7,8 +7,8 @@ Usage:
 
 1. Go to Yale Facebook
 2. For each of the colleges do the following:
-	a. Right-click on an email address, and click 'Inspect Element'
-	b. In the 'Elements' tab that just opened, scroll up to '<div class="display_data">'
-	c. Right-click on that class and click 'Copy Element'
-	d. Paste into appropriate college file in this directory
+2a. Right-click on an email address, and click 'Inspect Element'
+b. In the 'Elements' tab that just opened, scroll up to '<div class="display_data">'
+c. Right-click on that class and click 'Copy Element'
+d. Paste into appropriate college file in this directory
 3. Run yale_facebook_scraper.py 
