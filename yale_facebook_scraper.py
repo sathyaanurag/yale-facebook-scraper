@@ -3,7 +3,7 @@ colleges = ['_saybrook', '_branford', '_je', '_stiles', "_morse", '_calhoun', '_
 
 def scrape():
 	for college in colleges:
-		with open('html_yale_facebook' + college) as input_file:
+		with open('html_colleges/html_yale_facebook' + college) as input_file:
 			content = input_file.readlines()
 			content = content[1].split(' ')
 
